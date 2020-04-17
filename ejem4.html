@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JqueryEdi</title>
+    
+</head>
+<body>
+	<script type="text/javascript">
+
+		
+        var arreglo = new Array();
+     
+        arreglo.push('Negro');
+        arreglo.push('jose');
+        arreglo.push(45);
+        arreglo.push('Carlos');
+        arreglo.push(true);
+        console.log(arreglo[3]);
+        
+
+        
+        arreglo[3] = 'Edison Hernandez';
+        console.log(arreglo[3]); 
+        
+        
+        var peliculas = ['El hombre araña', 'Tarzan', 'Volver', 'Batman'];
+
+        for (i = 0; i< peliculas.length; i++)
+        	console.log(peliculas[i]);
+        
+
+        
+        var arreglo = [['Azul', 'Rojo', 'Verde', 'Amarillo',], [5,6,7,8], ['Edison', 'Mario', 'Luis', 'Maria']];
+        
+        for (i = 0; i< arreglo[1].length; i++)
+        	console.log(arreglo[0][i]); 
+        
+
+        
+        var arreglo = [['Azul', 'Rojo', 'Verde', 'Amarillo'], [5,6,7,8]];
+
+        var cadena = arreglo[1].join('');
+
+        console.log(cadena);
+        
+
+
+        var arreglo = [['Azul', 'Rojo', 'Verde', 'Amarillo'], [5,6,7,8]];
+
+        var cadena = '5678';
+
+        var arreglo = cadena.split('');
+
+        console.log(arreglo[0]);
+
+
+
+
+		
+	</script>
+    
+</body>
+</html>

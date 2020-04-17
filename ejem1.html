@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery: Condicionales</title>
+    
+</head>
+<body>
+	<script type="text/javascript">
+		var PVP= 50;
+        var descuento = 0;
+        var precioFinal;
+        var codPromocion = prompt("Si tienes un código para comprar en la Web con descuento especial, escríbelo aquí: ");   
+ 
+        if (codPromocion == "Edi28") {
+        descuento = 15;
+        precioFinal = PVP - descuento;
+        alert("Precio= " + precioFinal + "$ ");          
+        }
+        else if (codPromocion == "Edi68") {
+        descuento = 10;
+        precioFinal = PVP - descuento;
+        alert("Precio= " + precioFinal + "$ ");
+        }
+        else {
+        
+        alert("Lo sentimos, pero debes adquirir tu entrada en taquilla. Precio: " + PVP + " $");
+
+        }
+        var palabra;
+        palabra=prompt('Ingrese alguna de estas palabras (casa, mesa, perro, gato) para traducirlas al ingles','');
+        switch (palabra) {
+        case 'casa':document.write('house');
+                break;
+        case 'mesa':document.write('table');
+                break;
+        case 'perro':document.write('dog');
+                 break;
+        case 'gato':document.write('cat');
+                break;
+  
+        }
+     
+		
+	</script>
+    
+</body>
+</html>
